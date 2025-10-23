@@ -1,0 +1,22 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding-block: 24px;
+}
+
+main img {
+    width: 286px;
+    height: 286px;
+    object-fit: cover;
+}
+
+footer {
+    display: flex;
+    padding-block: 24px;
+    gap: 24px;
+}
+
+footer span:nth-child(1) {
+    margin-right: auto;
+}
